@@ -36,6 +36,12 @@ body {
   padding: 10px;
 }
 
+.content {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  }
+
 .key-visual {
   height: 700px;
   width: 1200px;
@@ -52,17 +58,19 @@ body {
 
 .tea-of-the-month {
   width: 1000px;
+  margin: 60px 0px;
 }
 
 .gallery {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .gallery-item {
   display: flex;
   flex-flow: column wrap;
+  padding: 0px 15px;
 }
 
 .image-content img {
@@ -74,4 +82,51 @@ body {
 .image-title h4 {
   padding: 10px;
   margin: 0;
+}
+
+.locations {
+  height: 500px;
+  width: 1200px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  background-image: url("../Images/locations-bckg.jpg");
+  background-size: cover;
+}
+
+.locations h2 {
+  margin: 0;
+  padding: 0;
+}
+
+.boxes {
+  width: 1200px;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-left, .box-center, .box-right {
+  background-color: black;
+  opacity: 1;
+  height: 300px;
+  width: 300px;
+  margin: 15px 20px;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+}
+
+.boxes h3 {
+  margin: 0;
+}
+
+.contact {
+  height: 200px;
+}
+
+.footer {
+  text-align: left;
+  margin-left: 20px;
 }
