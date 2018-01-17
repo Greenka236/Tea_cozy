@@ -37,9 +37,8 @@ nav span a {
 }
 
 .content {
-  display: flex;
-  flex-flow: column;
-  align-items: center;
+max-width: 1200px;
+  margin: auto;
   }
 
 .key-visual {
@@ -58,7 +57,7 @@ nav span a {
 
 .tea-of-the-month {
   width: 1000px;
-  margin: 60px 0px;
+  margin: 60px auto;
 }
 
 .gallery {
@@ -128,7 +127,6 @@ figcaption {
 }
 
 footer {
-  width: 100%;
   text-align: left;
   margin-left: 20px;
 }
