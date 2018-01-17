@@ -10,7 +10,7 @@ body {
   padding: 0;
 }
 
-.header {
+.header_main {
   height: 69px;
   width: 100%;
   display: flex;
@@ -27,11 +27,11 @@ body {
   padding-left: 10px;
 }
 
-.nav {
+nav {
   margin-right: 10px;
 }
 
-.nav span a {
+nav span a {
   color: seashell;
   padding: 10px;
 }
@@ -67,10 +67,11 @@ body {
   justify-content: center;
 }
 
-.gallery-item {
+.image-content {
   display: flex;
   flex-flow: column wrap;
-  padding: 0px 15px;
+  padding: 0 15px;
+  margin: 0;
 }
 
 .image-content img {
@@ -79,9 +80,9 @@ body {
   padding-top: 10px;
 }
 
-.image-title h4 {
-  padding: 10px;
-  margin: 0;
+figcaption {
+  padding: 30px;
+  font-weight: bolder;
 }
 
 .locations {
@@ -94,7 +95,7 @@ body {
   background-size: cover;
 }
 
-.locations h2 {
+.locations header h2 {
   margin: 0;
   padding: 0;
 }
@@ -126,7 +127,8 @@ body {
   height: 200px;
 }
 
-.footer {
+footer {
+  width: 100%;
   text-align: left;
   margin-left: 20px;
 }

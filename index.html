@@ -6,88 +6,69 @@
     <title>Tea Cozy</title>
   </head>
   <body>
-    <header>
-      <div class="header">
+    <header class="header_main">
         <div class="logo">
-          <img src="./Resources/Images/logo.png">
+          <img src="./Resources/Images/logo.png" alt="Logotype">
         </div>
-        <div class="nav">
-          <span><a href="#">Mission</a></span>
-          <span><a href="#">Featured Tea</a></span>
-          <span><a href="#">Locations</a></span>
-        </div>
-      </div>
+        <nav>
+          <span><a href="#mission">Mission</a></span>
+          <span><a href="#featured">Featured Tea</a></span>
+          <span><a href="#locations">Locations</a></span>
+        </nav>
     </header>
 
 <div class="content">
 
   <!--Key visual-->
-  <div class="key-visual">
-    <div class="headline">
+  <section id="mission" class="key-visual">
+    <header class="headline">
       <h2>Our Mission</h2>
       <h4>Handpicked, Artisanally Curated, Free Range, Sustainable, Small Batch, Fair Trade, Organic Tea</h4>
-    </div>
-  </div>
+    </header>
+  </section>
 
 <!--Tea of the month-->
-<div class="tea-of-the-month">
-  <div class="text-content">
-    <h2>Tea of the Month</h2>
-    <h4>What's Steeping at The Tea Cozy?</h4>
-  </div>
+  <section id="featured" class="tea-of-the-month">
+    <header class="text-content">
+      <h2>Tea of the Month</h2>
+      <h4>What's Steeping at The Tea Cozy?</h4>
+    </header>
+
   <div class="gallery">
 
-    <div class="gallery-item">
-      <div class="image-content">
-        <img src="./Resources/Images/gallery1.jpg">
-      </div>
-      <div class="image-title">
-        <h4>Fall Berry Blitz Tea</h4>
-      </div>
-    </div>
+      <figure class="image-content">
+        <img src="./Resources/Images/gallery1.jpg" alt="Tea with berries">
+        <figcaption>Fall Berry Blitz Tea</figcaption>
+      </figure>
 
-    <div class="gallery-item">
-      <div class="image-content">
-        <img src="./Resources/Images/gallery2.jpg">
-      </div>
-      <div class="image-title">
-        <h4>Spiced Rum Tea</h4>
-      </div>
-    </div>
+      <figure class="image-content">
+        <img src="./Resources/Images/gallery2.jpg" alt="Wooden tea box">
+        <figcaption>Spiced Rum Tea</figcaption>
+      </figure>
 
-    <div class="gallery-item">
-      <div class="image-content">
-        <img src="./Resources/Images/gallery3.jpg">
-      </div>
-      <div class="image-title">
-        <h4>Seasonal Donuts</h4>
-      </div>
-    </div>
+      <figure class="image-content">
+        <img src="./Resources/Images/gallery3.jpg" alt="Donut">
+        <figcaption>Seasonal Donuts</figcaption>
+      </figure>
 
-    <div class="gallery-item">
-      <div class="image-content">
-        <img src="./Resources/Images/gallery4.jpg">
-      </div>
-      <div class="image-title">
-        <h4>Myrtle Ave Tea</h4>
-      </div>
-    </div>
+      <figure class="image-content">
+        <img src="./Resources/Images/gallery4.jpg" alt="Cup of tea">
+        <figcaption>Myrtle Ave Tea</figcaption>
+      </figure>
 
-    <div class="gallery-item">
-      <div class="image-content">
-        <img src="./Resources/Images/gallery5.jpg">
-      </div>
-      <div class="image-title">
-        <h4>Bedford Bizarre Tea</h4>
-      </div>
-    </div>
+      <figure class="image-content">
+        <img src="./Resources/Images/gallery5.jpg" alt="Cup of tea with sugar and flowers">
+        <figcaption>Bedford Bizarre Tea</figcaption>
+      </figure>
+
   </div>
-</div>
+</section>
 
 <!--Locations-->
-<div class="locations">
-  
+<section id="locations" class="locations">
+  <header>
     <h2>Locations</h2>
+  </header>
 
   <div class="boxes">
     <div class="box-left">
@@ -109,21 +90,18 @@
       <span>Portland, Maine</span>
     </div>
   </div>
-</div>
+</section>
 
 <!--Contact-->
-  <div class="contact">
+  <section class="contact">
     <h2>The Tea Cozy</h2>
     <h5>contact@theteacozy.com</h5>
     <h5>917-555-8904</h5>
-  </div>
-</div>
+  </section>
 
 <!--Footer-->
 <footer>
-  <div class="footer">
-    <h5>copyright The Tea Cozy 2017</h5>
-  </div>
+  <h5>copyright The Tea Cozy 2017</h5>
 </footer>
 
   </body>
